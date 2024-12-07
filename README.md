@@ -1,3 +1,6 @@
+# Caution:
+Untested powershell script, don't execute if you don't know what you are doing
+
 # Star Citizen Cleanup Script
 
 This script is meant to be run with powershell as an administrator.
