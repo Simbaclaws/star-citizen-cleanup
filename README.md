@@ -77,9 +77,9 @@ The caches for your amd gpu are normally located at:
 
 The shader caches for star citizen are normally located here:
 ```
-%localappdata%\star citizen
+%localappdata%\star citizen\starcitizen_****\shaders
 ```
-within this folder is a folder for the current star citizen version which starts with starcitizen_, within that folder is a shaders folder.
+Where ***** is usually the version and patch number
 
 The settings and profiles are normally located here:
 ```
