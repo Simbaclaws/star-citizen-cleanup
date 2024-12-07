@@ -25,7 +25,7 @@ foreach ($folder in $shaderFolders) {
     }
 }
 
-# Temporarily copy everything in 'controls\mappings' and 'Profiles' to '~/Documents'
+# Temporarily copy everything in 'controls\mappings', 'Profiles' and 'CustomCharacters' to '~/Documents'
 $controlsSourcePath = Join-Path -Path $installLocation -ChildPath "user\client\0\controls\mappings"
 $profilesSourcePath = Join-Path -Path $installLocation -ChildPath "user\client\0\Profiles"
 $profilesSourcePath = Join-Path -Path $installLocation -ChildPath "user\client\0\CustomCharacters"
@@ -36,7 +36,7 @@ Copy-Item -Path $profilesSourcePath -Destination $destinationPath -Recurse -Forc
 # Remove the 'user' folder
 Remove-Item -Path (Join-Path -Path $installLocation -ChildPath "user") -Recurse -Force
 
-# Recreate the 'controls\mappings' and 'Profiles' folders and restore the files
+# Recreate the 'controls\mappings', 'Profiles' and 'CustomCharacters' folders and restore the files
 $controlsRestorePath = Join-Path -Path $installLocation -ChildPath "user\client\0\controls\mappings"
 $profilesRestorePath = Join-Path -Path $installLocation -ChildPath "user\client\0\Profiles"
 $profilesRestorePath = Join-Path -Path $installLocation -ChildPath "user\client\0\CustomCharacters"
