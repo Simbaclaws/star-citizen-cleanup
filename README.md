@@ -5,7 +5,7 @@ This script is meant to be run with powershell as an administrator.
 It does the following:
 
 1. **Define the install location of star citizen**\
-  (this might need to be changed by you inside the script if you have star citizen installed othen than program files)
+  (this might need to be changed by you inside the script if you have star citizen installed other than program files)
 
 2. **Remove everything within the NVIDIA cache folders**\
   (in case of a nvidia GPU)
