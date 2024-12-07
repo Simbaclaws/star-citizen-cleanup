@@ -27,7 +27,7 @@ It does the following:
 8. **Recreate the mappings and profiles folders and restore the files**\
   (after removing the user folder it will put back your personal game settings and keybinds)
 
-9. **Remove the temporary backup in Documents**\
+9. **Remove the temporary backup in Documents**
 
 ## How to use this script?
 
