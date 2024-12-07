@@ -20,14 +20,15 @@ It does the following:
 
 6. **Temporarely backup controls/mappings and profiles to your Documents**\
   (for game settings and keybinds)
+  (Caution: in order to keep these profiles and mappings you have to export them from within star citizen)
 
-7. **Remove the entire User folder of star citizen**\
+8. **Remove the entire User folder of star citizen**\
   (recommended after each patch)
 
-8. **Recreate the mappings and profiles folders and restore the files**\
+9. **Recreate the mappings and profiles folders and restore the files**\
   (after removing the user folder it will put back your personal game settings and keybinds)
 
-9. **Remove the temporary backup in Documents**
+10. **Remove the temporary backup in Documents**
 
 ## How to use this script?
 
