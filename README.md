@@ -19,7 +19,7 @@ It does the following:
   (in case of performance issues and bugs)
 
 6. **Temporarely backup controls/mappings and profiles to your Documents**\
-  (for game settings and keybinds)
+  (for game settings and keybinds)\
   (Caution: in order to keep these profiles and mappings you have to export them from within star citizen)
 
 8. **Remove the entire User folder of star citizen**\
