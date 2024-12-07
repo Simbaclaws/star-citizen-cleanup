@@ -28,6 +28,7 @@ foreach ($folder in $shaderFolders) {
 # Temporarily copy everything in 'controls\mappings' and 'Profiles' to '~/Documents'
 $controlsSourcePath = Join-Path -Path $installLocation -ChildPath "user\client\0\controls\mappings"
 $profilesSourcePath = Join-Path -Path $installLocation -ChildPath "user\client\0\Profiles"
+$profilesSourcePath = Join-Path -Path $installLocation -ChildPath "user\client\0\CustomCharacters"
 $destinationPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath("MyDocuments"), "StarCitizenBackup")
 Copy-Item -Path $controlsSourcePath -Destination $destinationPath -Recurse -Force
 Copy-Item -Path $profilesSourcePath -Destination $destinationPath -Recurse -Force
@@ -38,10 +39,11 @@ Remove-Item -Path (Join-Path -Path $installLocation -ChildPath "user") -Recurse 
 # Recreate the 'controls\mappings' and 'Profiles' folders and restore the files
 $controlsRestorePath = Join-Path -Path $installLocation -ChildPath "user\client\0\controls\mappings"
 $profilesRestorePath = Join-Path -Path $installLocation -ChildPath "user\client\0\Profiles"
+$profilesRestorePath = Join-Path -Path $installLocation -ChildPath "user\client\0\CustomCharacters"
 New-Item -ItemType Directory -Path $controlsRestorePath -Force
 New-Item -ItemType Directory -Path $profilesRestorePath -Force
 Copy-Item -Path "$destinationPath\mappings\*" -Destination $controlsRestorePath -Recurse -Force
 Copy-Item -Path "$destinationPath\Profiles\*" -Destination $profilesRestorePath -Recurse -Force
-
+Copy-Item -Path "$destinationPath\CustomCharacters\*" -Destination $profilesRestorePath -Recurse -Force
 # Remove the backup folders from '~/Documents'
 Remove-Item -Path $destinationPath -Recurse -Force

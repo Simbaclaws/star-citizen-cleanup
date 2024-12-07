@@ -18,7 +18,7 @@ It does the following:
 5. **Remove the actual shader caches of star citizen**\
   (in case of performance issues and bugs)
 
-6. **Temporarely backup controls/mappings and profiles to your Documents**\
+6. **Temporarely backup controls/mappings, profiles and characters to your Documents**\
   (for game settings and keybinds)\
   (Caution: in order to keep these profiles and mappings you have to export them from within star citizen)
 
@@ -81,10 +81,11 @@ The shader caches for star citizen are normally located here:
 ```
 Where ***** is usually the version and patch number
 
-The settings and profiles are normally located here:
+The settings, profiles and characters are normally located here:
 ```
 C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\user\client\0\controls\mappings
 C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\user\client\0\Profiles
+C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\user\client\0\CustomCharacters
 ```
 
 The user folder is located here:
