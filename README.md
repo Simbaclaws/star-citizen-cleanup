@@ -92,3 +92,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\user
 ```
 
 That is all you should need to know to save your profiles, and mappings as well as clear all of the caches and user folders in case you don't trust this script.
+
+## Issues?
+
+If you find any issues with this script, please let me know. I also accept pull requests.
