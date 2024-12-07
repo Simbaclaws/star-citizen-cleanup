@@ -4,30 +4,30 @@ This script is meant to be run with powershell as an administrator.
 
 It does the following:
 
-1. Define the install location of star citizen\
+1. **Define the install location of star citizen**\
   (this might need to be changed by you inside the script if you have star citizen installed othen than program files)\
 
-4. Remove everything within the NVIDIA cache folders\
+2. **Remove everything within the NVIDIA cache folders**\
   (in case of a nvidia GPU)\
 
-7. Remove every cache within the rsilauncher\
+3. **Remove every cache within the rsilauncher**\
 
-9. Remove everything within the AMD cache folders\
+4. **Remove everything within the AMD cache folders**\
   (in case of a AMD GPU)\
 
-11. Remove the actual shader caches of star citizen\
+5. **Remove the actual shader caches of star citizen**\
   (in case of performance issues and bugs)\
 
-13. Temporarely backup controls/mappings and profiles to your Documents\
+6. **Temporarely backup controls/mappings and profiles to your Documents**\
   (for game settings and keybinds)\
 
-16. Remove the entire User folder of star citizen\
+7. **Remove the entire User folder of star citizen**\
   (recommended after each patch)\
 
-18. Recreate the mappings and profiles folders and restore the files\
+8. **Recreate the mappings and profiles folders and restore the files**\
   (after removing the user folder it will put back your personal game settings and keybinds)\
 
-20. Remove the temporary backup in Documents\
+9. **Remove the temporary backup in Documents**\
 
 ## How to use this script?
 
